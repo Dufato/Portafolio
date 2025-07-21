@@ -94,3 +94,25 @@
         padding: 12px 0;
     }
 }
+@media screen and (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .projects {
+        padding: 20px 10px;
+    }
+
+    .project-card {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .project-card h2 {
+        font-size: 1.4em;
+    }
+
+    .project-card p {
+        font-size: 1em;
+    }
+}

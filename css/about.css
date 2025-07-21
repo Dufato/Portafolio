@@ -167,3 +167,35 @@
         padding: 12px 0;
     }
 }
+@media screen and (max-width: 768px) {
+    .profile, .vision {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile div, .vision div {
+        text-align: center;
+    }
+
+    .profile img, .vision img {
+        width: 80%;
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .profile h2, .vision h2 {
+        font-size: 1.6em;
+    }
+
+    .profile p, .vision p {
+        font-size: 1em;
+    }
+
+    .content {
+        padding: 0 10px;
+    }
+
+    .content h2 {
+        font-size: 1.6em;
+    }
+}
